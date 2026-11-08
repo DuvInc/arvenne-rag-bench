@@ -1,0 +1,9 @@
+name: Research or tooling suggestion
+description: Propose an improvement with a clear scope
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal and why it matters
+    validations:
+      required: true

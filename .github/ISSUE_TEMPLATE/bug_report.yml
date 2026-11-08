@@ -1,0 +1,15 @@
+name: Data or validation issue
+description: A reproducible problem with the released data or checks
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Question ID, file and observed problem
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected behavior and supporting evidence
+    validations:
+      required: true
